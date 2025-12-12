@@ -1,0 +1,19 @@
+{
+    "name": "Сертификат выпускника (Иван Иванов)",
+    "description": "Сертификат об успешном окончании программы по Web3.",
+    "image": "ipfs://bafkreidiccm4kxglcsptemrr4u637w3w73bk4vnduquxhajibtsyarcnre", 
+    "attributes": [
+        {
+            "trait_type": "Имя Выпускника",
+            "value": "Иван Иванов"
+        },
+        {
+            "trait_type": "Программа",
+            "value": "Advanced Web3 Development"
+        },
+        {
+            "trait_type": "Оценка (Grade)",
+            "value": 95
+        }
+    ]
+}

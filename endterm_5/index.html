@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Certificate Gallery</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎓 NFT Certificate Gallery</h1>
+        <button id="connectBtn">Connect Wallet</button>
+        <div id="walletAddress">Not Connected</div>
+    </header>
+
+    <main>
+        <div class="controls">
+            <h2>Filter & Search</h2>
+            <input type="text" id="searchInput" placeholder="Search by Name or Program...">
+
+            <label for="filterProgram">Filter by Program:</label>
+            <select id="filterProgram">
+                <option value="">All Programs</option>
+                <option value="Advanced Web3 Development">Advanced Web3 Development</option>
+                <option value="Solidity Masterclass">Solidity Masterclass</option>
+                </select>
+
+            <label for="minGrade">Min Grade:</label>
+            <input type="number" id="minGrade" min="0" max="100" value="0">
+        </div>
+
+        <div id="nftGallery" class="gallery-container">
+            <p id="statusMsg">Please connect your wallet to view certificates.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 NFT Certificates</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

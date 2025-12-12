@@ -1,0 +1,19 @@
+{
+    "name": "Сертификат выпускника (Анна Петрова)",
+    "description": "Сертификат об окончании курса по Solidity.",
+    "image": "ipfs://bafkreif5dtqlxd2ixwvgy3cblxousn4cjtlvrtecmkonmb5ifygjhxm43y", 
+    "attributes": [
+        {
+            "trait_type": "Имя Выпускника",
+            "value": "Анна Петрова"
+        },
+        {
+            "trait_type": "Программа",
+            "value": "Solidity Masterclass"
+        },
+        {
+            "trait_type": "Оценка (Grade)",
+            "value": 88
+        }
+    ]
+}

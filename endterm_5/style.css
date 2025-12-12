@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f0f1a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #2e86de;
+}
+
+#walletAddress {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.controls {
+    background-color: #252734;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.controls input[type="text"], 
+.controls select,
+.controls input[type="number"] {
+    padding: 10px;
+    margin: 5px 10px 10px 0;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nft-card {
+    background-color: #252734;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.nft-card:hover {
+    transform: translateY(-5px);
+}
+
+.nft-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.nft-card h3, .nft-card p {
+    padding: 5px 15px;
+    margin: 0;
+}
+
+#statusMsg {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #2e86de;
+}
+
+/* Кнопка */
+#connectBtn {
+    background-color: #2e86de;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+#connectBtn:hover {
+    background-color: #1a6ac9;
+}
